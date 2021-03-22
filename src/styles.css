@@ -1,1 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
+
+@font-face {
+    font-family: regular;
+    src: url(./assets/fonts/Aileron-Regular.otf) format("opentype");
+}
+
+@font-face {
+    font-family: bold;
+    src: url(./assets/fonts/Aileron-Bold.otf) format("opentype");
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'regular', 'lato', sans-serif;
+}

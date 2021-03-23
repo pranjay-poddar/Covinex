@@ -1,0 +1,147 @@
+.grow {
+    transition: all .2s ease-in-out;
+}
+
+.grow:hover {
+    transform: scale(1.2);
+}
+
+.content {
+    height: 100vh;
+    background-color: black;
+}
+
+.heading-1 {
+    margin-top: 3vh;
+    left: 38vw;
+    font-family: 'Fredoka One', cursive;
+    color: white;
+    font-size: 400%;
+    text-align: center;
+    justify-content: center;
+}
+
+.heading-2 {
+    margin-top: 5vh;
+    left: 38vw;
+    font-family: 'Fredoka One', cursive;
+    color: #ff5757;
+    font-size: 200%;
+    text-align: center;
+    justify-content: center;
+}
+
+.inner-text {
+    color: white;
+    font-size: 110%;
+}
+
+.social_icon {
+    list-style: none;
+}
+
+.social_iconleft {
+    margin-right: 30px;
+}
+
+.social_icon a {
+    color: white;
+    font-size: 60px;
+}
+
+.social_icon a:hover {
+    color: #ff5757;
+}
+
+.corona-1 {
+    position: absolute;
+    left: -100px;
+    top: 60px;
+    height: 250px;
+    width: 300px;
+    opacity: 0.8;
+}
+
+.corona-2 {
+    position: absolute;
+    right: 0px;
+    bottom: -50px;
+    height: 250px;
+    width: 300px;
+    opacity: 0.8;
+}
+
+
+/* 
+@media (max-width: 992px) {}
+
+@media (max-width: 768px) {}
+
+@media (max-width: 576px) {} */
+
+@media (max-width: 992px) {
+    .social_icon a {
+        font-size: 50px;
+    }
+    .heading-1 {
+        margin-top: 3vh;
+        left: 38vw;
+        font-size: 350%;
+    }
+    .heading-2 {
+        margin-top: 5vh;
+        left: 38vw;
+        font-size: 150%;
+    }
+}
+
+@media (max-width: 768px) {
+    .social_icon a {
+        font-size: 40px;
+    }
+    .heading-1 {
+        margin-top: 3vh;
+        left: 38vw;
+        font-size: 300%;
+    }
+    .heading-2 {
+        margin-top: 5vh;
+        left: 38vw;
+        font-size: 120%;
+    }
+    .corona-1 {
+        left: -120px;
+        top: 60px;
+        height: 200px;
+        width: 250px;
+        overflow: hidden;
+        opacity: 0.5;
+    }
+    .corona-2 {
+        right: 0px;
+        bottom: -50px;
+        height: 180px;
+        width: 200px;
+        overflow: hidden;
+        opacity: 0.5;
+    }
+}
+
+@media (max-width: 576px) {
+    .corona-1 {
+        left: -120px;
+        top: 60px;
+        height: 150px;
+        width: 200px;
+        overflow: hidden;
+        opacity: 0.3;
+    }
+    .corona-2 {
+        right: 0px;
+        bottom: -50px;
+        height: 150px;
+        width: 180px;
+        overflow: hidden;
+        opacity: 0.3;
+    }
+}

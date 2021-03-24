@@ -1,0 +1,49 @@
+.ui.statistic>.value,
+.ui.statistics .statistic>.value {
+    font-size: 40px!important;
+}
+
+.heading-1 {
+    left: 38vw;
+    font-family: 'Fredoka One', cursive;
+    color: rgb(0, 0, 0);
+    font-size: 400%;
+    text-align: center;
+    justify-content: center;
+}
+
+.ui.statistic>.label,
+.ui.statistics .statistic>.label {
+    font-family: 'Fredoka One', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: 300;
+    color: rgba(0, 0, 0, .87);
+    text-transform: uppercase;
+    text-align: center;
+}
+
+@media (max-width: 992px) {
+    .heading-1 {
+        left: 38vw;
+        font-size: 350%;
+    }
+}
+
+@media (max-width: 768px) {
+    .heading-1 {
+        left: 38vw;
+        font-size: 300%;
+    }
+    .ui.statistic>.label,
+    .ui.statistics .statistic>.label {
+        font-size: 18px;
+        font-weight: 200;
+        color: rgba(0, 0, 0, .87);
+    }
+    .ui.statistic>.value,
+    .ui.statistics .statistic>.value {
+        font-size: 33px!important;
+    }
+}
+
+@media (max-width: 576px) {}

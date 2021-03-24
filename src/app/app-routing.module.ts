@@ -1,3 +1,4 @@
+import { GlobeTrackComponent } from './globe-track/globe-track.component';
 import { ContactComponent } from './contact/contact.component';
 import { FooterComponent } from './footer/footer.component';
 import { TrackerComponent } from './tracker/tracker.component';
@@ -17,6 +18,7 @@ const routes: Routes = [
   {path: 'tracker', component: TrackerComponent},
   {path: 'signin', component: SigninComponent},
   {path: 'contact', component: ContactComponent},
+  {path: 'globetracker', component: GlobeTrackComponent},
   {path: 'footer', component: FooterComponent}
 ];
 

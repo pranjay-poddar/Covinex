@@ -10,7 +10,9 @@ import { TrackerComponent } from './tracker/tracker.component';
 import { SigninComponent } from './signin/signin.component';
 import { ContactComponent } from './contact/contact.component';
 import { FooterComponent } from './footer/footer.component';
-
+import { ReactiveFormsModule } from '@angular/forms';
+import { GlobeTrackComponent } from './globe-track/globe-track.component';
+import { HttpClientModule } from '@angular/common/http';
 @NgModule({
   declarations: [
     AppComponent,
@@ -21,11 +23,13 @@ import { FooterComponent } from './footer/footer.component';
     TrackerComponent,
     SigninComponent,
     ContactComponent,
-    FooterComponent
+    FooterComponent,
+    GlobeTrackComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

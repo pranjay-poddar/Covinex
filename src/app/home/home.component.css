@@ -1,7 +1,8 @@
 .home-background {
     background: black;
     height: 100vh;
-    background-image: url('/assets/images/background-dark2.png');
+    background-image: url(src/assets/images/background-dark2.png);
+    position: relative;
 }
 
 h1 {
@@ -35,7 +36,7 @@ h1 {
     position: absolute;
     left: 50%;
     margin-left: -150px;
-    top: 65vh;
+    top: 58vh;
 }
 
 .btn {
@@ -119,7 +120,7 @@ h1 {
     .sign-button {
         left: 50%;
         margin-left: -150px;
-        top: 65vh;
+        top: 58vh;
     }
 }
 
@@ -151,7 +152,7 @@ h1 {
     .sign-button {
         left: 50%;
         margin-left: -150px;
-        top: 55vh;
+        top: 50vh;
     }
 }
 
@@ -183,6 +184,6 @@ h1 {
     .sign-button {
         left: 50%;
         margin-left: -150px;
-        top: 60vh;
+        top: 55vh;
     }
 }

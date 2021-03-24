@@ -13,6 +13,7 @@ import { FooterComponent } from './footer/footer.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { GlobeTrackComponent } from './globe-track/globe-track.component';
 import { HttpClientModule } from '@angular/common/http';
+import { InfocardsComponent } from './infocards/infocards.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -24,7 +25,8 @@ import { HttpClientModule } from '@angular/common/http';
     SigninComponent,
     ContactComponent,
     FooterComponent,
-    GlobeTrackComponent
+    GlobeTrackComponent,
+    InfocardsComponent
   ],
   imports: [
     BrowserModule,

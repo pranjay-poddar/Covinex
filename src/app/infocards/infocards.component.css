@@ -1,5 +1,6 @@
-select {
-    width: 200px;
+.ui.statistic>.value,
+.ui.statistics .statistic>.value {
+    font-size: 40px!important;
 }
 
 .heading-1 {
@@ -9,6 +10,16 @@ select {
     font-size: 400%;
     text-align: center;
     justify-content: center;
+}
+
+.ui.statistic>.label,
+.ui.statistics .statistic>.label {
+    font-family: 'Fredoka One', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: 300;
+    color: rgba(0, 0, 0, .87);
+    text-transform: uppercase;
+    text-align: center;
 }
 
 @media (max-width: 992px) {

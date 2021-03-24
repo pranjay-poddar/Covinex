@@ -1,6 +1,14 @@
-<div class="jumbotron bg-white text-center">
-    <h1 class="display-4">Corona Country Tracker</h1>
-    <p class="lead">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti molestias porro neque modi, deserunt magnam nisi dolore illo a laborum quae iste rerum quos, ea pariatur dolorem numquam itaque dolorum!</p>
-    <hr class="my-2">
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae illo suscipit, cumque expedita quod voluptatibus laudantium iusto eos aliquam consequatur. Quibusdam quod maxime animi expedita quae ex eaque pariatur blanditiis?</p>
+<div class="jumbotron bg-black text-center">
+    <h1 class="heading-1">Country Corona Tracker</h1>
+    <hr>
+    <div class="mx-auto">
+        <div class="form-group col-lg-5 mx-auto bg-black">
+            <label for="c" style="display: block;">Select Country</label>
+            <select name="" class="form-control custom-select" id="c">
+                <option value="{{con}}" *ngFor='let con of countries'>{{con}}</option>
+            </select>
+        </div>
+    </div>
+    <app-infocards [totalConfirmed]='totalConfirmed' [totalActive]='totalActive' [totalRecovered]='totalRecovered' [totalDeaths]='totalDeaths'></app-infocards>
+
 </div>

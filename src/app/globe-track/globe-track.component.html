@@ -1,47 +1,6 @@
 <div class="jumbotron bg-black text-center">
     <h1 class="heading-1">Global Corona Tracker</h1>
     <hr>
-    <div class="row d-flex justify-content-center">
-        <div class="card col-sm-12 col-md-6 col-lg-3 p-2 m-3">
-            <div class="ui statistic">
-                <div class="label">
-                    Confirmed
-                </div>
-                <div class="value">
-                    {{totalConfirmed}}
-                </div>
-            </div>
-        </div>
-        <div class="card col-sm-12 col-md-5 col-lg-3 p-2 m-3">
-            <div class="ui statistic">
-                <div class="label">
-                    Recovered
-                </div>
-                <div class="value">
-                    {{totalRecovered}}
-                </div>
-            </div>
-        </div>
-        <div class="card col-sm-12 col-md-6 col-lg-3 p-2 m-3">
-            <div class="ui statistic">
-                <div class="label">
-                    Deceased
-                </div>
-                <div class="value">
-                    {{totalDeaths}}
-                </div>
-            </div>
-        </div>
-        <div class="card col-sm-12 col-md-5 col-lg-3 p-2 m-3">
-            <div class="ui statistic">
-                <div class="label">
-                    Active
-                </div>
-                <div class="value">
-                    {{totalActive}}
-                </div>
-            </div>
-        </div>
-    </div>
+    <app-infocards [totalConfirmed]='totalConfirmed' [totalActive]='totalActive' [totalRecovered]='totalRecovered' [totalDeaths]='totalDeaths'></app-infocards>
 
 </div>

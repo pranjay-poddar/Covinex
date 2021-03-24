@@ -12,7 +12,11 @@ import { merge } from 'rxjs/operators';
 export class TrackerComponent implements OnInit {
 
   data : GlobalDataSummary[] = [];
-  countries : string [] = []
+  countries : string [] = [];
+  totalConfirmed = 0;
+  totalActive = 0;
+  totalDeaths = 0;
+  totalRecovered = 0;
   constructor(private service : DataServiceService) { }
 
   ngOnInit(): void {
@@ -22,9 +26,16 @@ export class TrackerComponent implements OnInit {
      this.countries.push(cs.country)
    })
  })
-    
-    
-
-  }
-
+}  
+ updateValues(country : string){
+  console.log(country);
+  this.data.forEach(cs=>{
+    if(cs.country == country){
+      this.totalActive = cs.active
+      this.totalDeaths = cs.deaths
+      this.totalRecovered = cs.recovered
+      this.totalConfirmed = cs.confirmed
+    }
+  })
+}
 }

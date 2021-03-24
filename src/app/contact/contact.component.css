@@ -36,6 +36,10 @@
     font-size: 110%;
 }
 
+.mail:hover {
+    text-decoration: none;
+}
+
 .social_icon {
     list-style: none;
 }

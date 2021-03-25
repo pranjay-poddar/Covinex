@@ -33,7 +33,7 @@ select {
 
 .heading-1 {
     left: 38vw;
-    font-family: 'Fredoka One', cursive;
+    font-family: 'Fredoka One';
     color: rgb(0, 0, 0);
     font-size: 400%;
     text-align: center;
@@ -82,4 +82,10 @@ select {
     }
 }
 
-@media (max-width: 576px) {}
+@media (max-width: 576px) {
+     .heading-1 {
+        left: 38vw;
+        font-size: 300%;
+        line-height: 45px;
+    }
+}

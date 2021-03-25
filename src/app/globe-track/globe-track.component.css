@@ -96,4 +96,9 @@
     .bg2 {
         display: none;
     }
+     .heading-1 {
+        left: 38vw;
+        font-size: 300%;
+        line-height: 45px;
+    }
 }

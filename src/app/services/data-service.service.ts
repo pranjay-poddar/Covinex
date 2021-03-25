@@ -26,7 +26,7 @@ export class DataServiceService {
     let now = new Date()
     this.month = now.getMonth() + 1;
     this.year = now.getFullYear();
-    this.date = now.getDate()-1;
+    this.date = now.getDate()-3;
     this.globalDataUrl = `${this.globalDataUrl}${this.getDate(this.month)}-${this.getDate(this.date)}-${this.year}${this.extension}`
    }
 

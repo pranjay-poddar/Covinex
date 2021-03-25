@@ -1,1 +1,28 @@
-<p>signin works!</p>
+<section class="home">
+    <h1 class="heading-1">Sign In</h1>
+    <br>
+    <div class="container">
+        <div class="logo d-flex justify-content-center">
+            <img src="assets/images/logoblack.png" alt="IWSC" width="100" height="100">
+        </div>
+        <div class="fieldBox">
+            <p>
+                <mat-form-field appearance="outline">
+                    <mat-label>User Name</mat-label>
+                    <input matInput placeholder="">
+                </mat-form-field>
+            </p>
+
+            <p>
+                <mat-form-field appearance="outline">
+                    <mat-label>Password</mat-label>
+                    <input matInput placeholder="">
+                </mat-form-field>
+            </p>
+            <button type="button" class="btn btn-primary signinbtn" routerLink="/analysis">Login</button>
+            <hr>
+            <button type="button" class="btn btn-success signupbtn" (click)="openDialog()">Sign Up</button>
+
+        </div>
+    </div>
+</section>

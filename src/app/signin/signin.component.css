@@ -1,0 +1,62 @@
+.home {
+    background-color: #000000;
+    height: 100vh;
+}
+
+.heading-1 {
+    padding-top: 2%;
+    font-family: 'Fredoka One';
+    color: #ff5757;
+    font-size: 400%;
+    text-align: center;
+    justify-content: center;
+}
+
+.logo {
+    padding-top: 4%;
+}
+
+.container {
+    background-color: #fafafa;
+    width: 50vw;
+    height: 70vh;
+    border-radius: 25px;
+}
+
+.signinbtn {
+    background-color: #ff5757;
+}
+
+.fieldBox {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    text-align: center;
+}
+
+.btn {
+    width: 100px;
+    border-radius: 5px;
+}
+
+@media (max-width: 992px) {}
+
+@media (max-width: 768px) {
+    .heading-1 {
+        padding-top: 4%;
+        font-size: 350%;
+    }
+}
+
+@media (max-width: 576px) {
+    .heading-1 {
+        padding-top: 10%;
+        font-size: 350%;
+    }
+    .container {
+        margin-top: 5%;
+        background-color: #fafafa;
+        width: 60vw;
+        height: 60vh;
+        border-radius: 25px;
+    }
+}

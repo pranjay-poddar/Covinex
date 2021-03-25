@@ -1,0 +1,40 @@
+.home {
+    height: 100vh;
+    background-color: black;
+}
+
+hr {
+    color: white;
+}
+
+.heading-1 {
+    left: 38vw;
+    padding-top: 2%;
+    font-family: 'Fredoka One';
+    color: #ff5757;
+    font-size: 400%;
+    text-align: center;
+    justify-content: center;
+}
+
+@media (max-width: 992px) {
+    .heading-1 {
+        left: 38vw;
+        font-size: 350%;
+    }
+}
+
+@media (max-width: 768px) {
+    .heading-1 {
+        left: 38vw;
+        font-size: 300%;
+    }
+}
+
+@media (max-width: 576px) {
+    .heading-1 {
+        left: 38vw;
+        font-size: 300%;
+        line-height: 45px;
+    }
+}

@@ -1,6 +1,6 @@
 select {
     width: 200px;
-    font-family: 'arial', cursive;
+    font-family: 'regular';
     font-size: 16px;
 }
 
@@ -10,9 +10,9 @@ select {
 }
 
 .table th {
-    font-family: 'Fredoka One', cursive;
+    font-family: 'regular';
     color: rgb(0, 0, 0);
-    font-size: 200%;
+    font-size: 150%;
 }
 
 

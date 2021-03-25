@@ -1,3 +1,4 @@
+import { MatDialog } from '@angular/material/dialog';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
@@ -15,7 +16,12 @@ import { GlobeTrackComponent } from './globe-track/globe-track.component';
 import { HttpClientModule } from '@angular/common/http';
 import { InfocardsComponent } from './infocards/infocards.component';
 import { GoogleChartsModule } from 'angular-google-charts';
-
+import { SignupComponent } from './signup/signup.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatDialogModule } from '@angular/material/dialog';
+import { MatBadgeModule } from '@angular/material/badge';
+import { MatInputModule } from '@angular/material/input';
 @NgModule({
   declarations: [
     AppComponent,
@@ -28,13 +34,20 @@ import { GoogleChartsModule } from 'angular-google-charts';
     ContactComponent,
     FooterComponent,
     GlobeTrackComponent,
-    InfocardsComponent
+    InfocardsComponent,
+    SignupComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    GoogleChartsModule
+    GoogleChartsModule,
+    ReactiveFormsModule,
+    BrowserAnimationsModule,
+    MatFormFieldModule,
+    MatDialogModule,
+    MatBadgeModule,
+    MatInputModule
   ],
   providers: [],
   bootstrap: [AppComponent]

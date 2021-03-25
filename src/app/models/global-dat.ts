@@ -1,5 +1,5 @@
 export interface GlobalDataSummary{
-    country : string , 
+    country : string  , 
     confirmed : number , 
     deaths : number, 
     recovered :number , 

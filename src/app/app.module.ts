@@ -14,6 +14,8 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { GlobeTrackComponent } from './globe-track/globe-track.component';
 import { HttpClientModule } from '@angular/common/http';
 import { InfocardsComponent } from './infocards/infocards.component';
+import { GoogleChartsModule } from 'angular-google-charts';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -31,7 +33,8 @@ import { InfocardsComponent } from './infocards/infocards.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    GoogleChartsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

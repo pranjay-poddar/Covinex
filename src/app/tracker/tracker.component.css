@@ -4,6 +4,28 @@ select {
     font-size: 16px;
 }
 
+.card {
+    border-radius: 50px;
+    background-color: #ff5757;
+}
+
+.table th {
+    font-family: 'Fredoka One', cursive;
+    color: rgb(0, 0, 0);
+    font-size: 200%;
+}
+
+
+/* .row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.container {
+    padding: 0px !important;
+    margin: 0 !important;
+} */
+
 .ui.statistic>.value,
 .ui.statistics .statistic>.value {
     font-size: 40px!important;
@@ -43,7 +65,7 @@ select {
 @media (max-width: 768px) {
     .heading-1 {
         left: 38vw;
-        font-size: 300%;
+        font-size: 250%;
     }
     .ui.statistic>.label,
     .ui.statistics .statistic>.label {
@@ -54,6 +76,9 @@ select {
     .ui.statistic>.value,
     .ui.statistics .statistic>.value {
         font-size: 33px!important;
+    }
+    .card {
+        width: 60%;
     }
 }
 

@@ -22,6 +22,50 @@
     text-align: center;
 }
 
+.field label {
+    font-family: 'Fredoka One', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 200;
+    color: rgba(0, 0, 0, .87);
+    text-transform: uppercase;
+}
+
+.select {
+    font-family: 'Fredoka One', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    color: rgba(0, 0, 0, .87);
+    text-transform: uppercase;
+}
+
+.ui.form {
+    font-size: 2rem;
+}
+
+.ui.radio.checkbox .box:before,
+.ui.radio.checkbox label:before {
+    content: '';
+    -webkit-transform: none;
+    transform: none;
+    width: 20px;
+    height: 18px;
+    border-radius: 8px;
+    top: 1px;
+    left: 0;
+}
+
+.ui.radio.checkbox .box:after,
+.ui.radio.checkbox label:after {
+    top: 1px;
+    left: 0;
+    width: 20px;
+    height: 18px;
+    border-radius: 8px;
+    -webkit-transform: scale(.46666667);
+    transform: scale(1);
+    background-color: rgba(0, 0, 0, .87);
+}
+
 @media (max-width: 992px) {
     .heading-1 {
         left: 38vw;
@@ -46,4 +90,9 @@
     }
 }
 
-@media (max-width: 576px) {}
+@media (max-width: 576px) {
+    .bg1,
+    .bg2 {
+        display: none;
+    }
+}

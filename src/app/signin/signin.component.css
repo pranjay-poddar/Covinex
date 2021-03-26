@@ -17,14 +17,18 @@
 }
 
 .container {
-    background-color: #fafafa;
-    width: 50vw;
+    background-color: #e6e6e6;
+    width: 60vw;
     height: 70vh;
     border-radius: 25px;
 }
 
 .signinbtn {
     background-color: #ff5757;
+}
+
+.signinbtn:hover {
+    background-color: #df2727;
 }
 
 .fieldBox {
@@ -54,9 +58,8 @@
     }
     .container {
         margin-top: 5%;
-        background-color: #fafafa;
         width: 80vw;
-        height: 70vh;
+        height: 65vh;
         border-radius: 25px;
     }
 }

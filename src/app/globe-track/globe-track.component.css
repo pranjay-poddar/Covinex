@@ -12,6 +12,11 @@
     justify-content: center;
 }
 
+.card {
+    border-radius: 50px;
+    background-color: #ff5757;
+}
+
 .ui.statistic>.label,
 .ui.statistics .statistic>.label {
     font-family: 'Fredoka One', 'Helvetica Neue', Helvetica, sans-serif;
@@ -89,6 +94,9 @@
     .ui.statistics .statistic>.value {
         font-size: 33px!important;
     }
+    .card1 {
+        width: 60%;
+    }
 }
 
 @media (max-width: 576px) {
@@ -96,7 +104,7 @@
     .bg2 {
         display: none;
     }
-     .heading-1 {
+    .heading-1 {
         left: 38vw;
         font-size: 300%;
         line-height: 45px;

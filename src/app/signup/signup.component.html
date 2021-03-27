@@ -3,19 +3,27 @@
     <p>
         <mat-form-field appearance="outline">
             <mat-label>Name</mat-label>
-            <input matInput placeholder="">
+            <input matInput placeholder="Harry Potter">
         </mat-form-field>
     </p>
     <p>
         <mat-form-field appearance="outline">
             <mat-label>Email</mat-label>
-            <input matInput placeholder="">
+            <input matInput placeholder="harrypotter@xyz.com">
+            <!-- <mat-error *ngIf="email.invalid">{{getErrorMessage()}}</mat-error> -->
         </mat-form-field>
     </p>
     <p>
         <mat-form-field appearance="outline">
             <mat-label>Phone No.</mat-label>
-            <input matInput placeholder="">
+            <input type="number" maxlength="10" matInput placeholder="9469789454">
+
+        </mat-form-field>
+    </p>
+    <p>
+        <mat-form-field appearance="outline">
+            <mat-label>Password</mat-label>
+            <input type="password" matInput placeholder="password">
         </mat-form-field>
     </p>
     <button type="button" routerLink="/home" class="btn btn-primary">Submit</button>

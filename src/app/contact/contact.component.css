@@ -12,7 +12,7 @@
 }
 
 .heading-1 {
-    margin-top: 3vh;
+    margin-top: 5%;
     left: 38vw;
     font-family: 'Fredoka One', cursive;
     color: white;
@@ -34,6 +34,12 @@
 .inner-text {
     color: white;
     font-size: 110%;
+}
+
+#chat {
+    color: white;
+    font-size: 110%;
+    text-decoration: none;
 }
 
 .mail:hover {

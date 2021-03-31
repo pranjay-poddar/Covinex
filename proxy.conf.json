@@ -1,0 +1,7 @@
+{
+    "/api/*": {
+        "target": "https://outpost.mapmyindia.com",
+        "secure": false,
+        "logLevel": "debug"
+    }
+}

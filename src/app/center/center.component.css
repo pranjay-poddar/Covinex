@@ -6,6 +6,11 @@
     transform: scale(1.5);
 }
 
+#map {
+    height: 100vh;
+    width: 1300px;
+}
+
 .home {
     height: 100vh;
     background-color: black;
@@ -36,8 +41,12 @@ hr {
     border-radius: 25px;
 }
 
-.container {
+.container1 {
     margin-top: 5%;
+}
+
+.bg2 {
+    background-color: black;
 }
 
 .flip-card {
@@ -95,6 +104,10 @@ hr {
         height: 250px;
         width: 250px;
         border-radius: 25px;
+    }
+    #map {
+        height: 100vh;
+        width: 100vw;
     }
 }
 

@@ -27,6 +27,10 @@ export class DataServiceService {
     this.month = now.getMonth() + 1;
     this.year = now.getFullYear();
     this.date = now.getDate()-3;
+    if (this.date == 1 || 2 || 3){
+      this.month = now.getMonth();
+      this.date = 30 - now.getDate();
+    }
     this.globalDataUrl = `${this.globalDataUrl}${this.getDate(this.month)}-${this.getDate(this.date)}-${this.year}${this.extension}`
    }
 

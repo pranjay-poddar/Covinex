@@ -8,7 +8,7 @@ import {MatDialog} from '@angular/material/dialog';
   styleUrls: ['./signin.component.css']
 })
 export class SigninComponent implements OnInit {
-
+  passwordPattern="(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[$@$!%*?&])[A-Za-z\d$@$!%*?&].{8,}";
   constructor(public dialog: MatDialog) { }
 
   ngOnInit(): void {

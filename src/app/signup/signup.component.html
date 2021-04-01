@@ -1,9 +1,15 @@
 <h2 class="text-center">Sign Up</h2>
-<div class="container">
+<div class="container text-center">
     <p>
         <mat-form-field appearance="outline">
             <mat-label>Name</mat-label>
-            <input ngModel matInput placeholder="Harry Potter" required>
+            <input ngModel [pattern]="namePattern" matInput placeholder="Full Name" required>
+        </mat-form-field>
+    </p>
+    <p>
+        <mat-form-field appearance="outline">
+            <mat-label>User Name</mat-label>
+            <input ngModel matInput placeholder="Harry-Potter" required>
         </mat-form-field>
     </p>
     <p>
@@ -23,8 +29,11 @@
     <p>
         <mat-form-field appearance="outline">
             <mat-label>Password</mat-label>
-            <input ngModel type="password" matInput placeholder="password" required>
+
+            <input ngModel [pattern]="passwordPattern" type="password" matInput placeholder="password**" required>
+
         </mat-form-field>
     </p>
+    <p class="text-muted">**Minimum 8 characters, Lower & Upper Case letters, Numbers & Special characters</p>
     <button type="button" routerLink="/home" class="btn btn-primary">Submit</button>
 </div>

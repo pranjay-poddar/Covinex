@@ -16,7 +16,7 @@
             <p>
                 <mat-form-field appearance="outline">
                     <mat-label>Password</mat-label>
-                    <input ngModel type="password" matInput placeholder="Password" required>
+                    <input ngModel type="password" [pattern]="passwordPattern" matInput placeholder="Password" required>
                 </mat-form-field>
             </p>
             <button type="button" class="grow btn btn-primary signinbtn" routerLink="/analysis">Login</button>

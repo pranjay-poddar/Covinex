@@ -23,6 +23,19 @@ select {
     font-size: 150%;
 }
 
+.table td {
+    font-family: 'regular';
+    color: rgb(0, 0, 0);
+}
+
+tr:nth-child(even) {
+    background-color: rgb(233, 233, 233);
+}
+
+tr:hover {
+    background-color: #ff5757;
+}
+
 
 /* .row {
     margin-right: -15px;

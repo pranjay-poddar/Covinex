@@ -9,14 +9,14 @@
             <p>
                 <mat-form-field appearance="outline">
                     <mat-label>User Name</mat-label>
-                    <input matInput placeholder="Harry-Potter">
+                    <input ngModel matInput placeholder="Harry-Potter" required>
                 </mat-form-field>
             </p>
 
             <p>
                 <mat-form-field appearance="outline">
                     <mat-label>Password</mat-label>
-                    <input type="password" matInput placeholder="Password">
+                    <input ngModel type="password" matInput placeholder="Password" required>
                 </mat-form-field>
             </p>
             <button type="button" class="grow btn btn-primary signinbtn" routerLink="/analysis">Login</button>

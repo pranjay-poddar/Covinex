@@ -16,5 +16,19 @@
     padding: 0;
     font-family: 'regular', 'lato', sans-serif;
 }
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+input.ng-invalid.ng-dirty {
+    border-bottom-color: #ff0055 !important;
+    border-bottom: solid 3px;
+    box-shadow: #ff0055 !important;
+}

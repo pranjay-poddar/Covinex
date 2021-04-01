@@ -1,3 +1,5 @@
+import { RegisterComponent } from './register/register.component';
+import { ResultComponent } from './result/result.component';
 import { GlobeTrackComponent } from './globe-track/globe-track.component';
 import { ContactComponent } from './contact/contact.component';
 import { FooterComponent } from './footer/footer.component';
@@ -10,6 +12,7 @@ import { NgModule } from '@angular/core';
 import { Routes,RouterModule } from '@angular/router';
 
 
+
 const routes: Routes = [
   {path: '', redirectTo: '/home', pathMatch: 'full'},
   {path: 'home', component: HomeComponent},
@@ -19,7 +22,9 @@ const routes: Routes = [
   {path: 'signin', component: SigninComponent},
   {path: 'contact', component: ContactComponent},
   {path: 'globetracker', component: GlobeTrackComponent},
-  {path: 'footer', component: FooterComponent}
+  {path: 'footer', component: FooterComponent},
+  {path: 'result', component: ResultComponent},
+  {path: 'register', component: RegisterComponent}
 ];
 
 @NgModule({

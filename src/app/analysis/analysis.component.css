@@ -3,12 +3,45 @@
 }
 
 .grow:hover {
-    transform: scale(1.5);
+    transform: scale(1.1);
 }
 
 .home {
-    height: 100vh;
+    height: 200vh;
     background-color: black;
+}
+
+#registration {
+    font-size: 300%;
+    line-height: 130%;
+    font-family: 'regular', sans-serif;
+    text-align: center;
+}
+
+#quizimg {
+    height: 200px;
+    width: 200px;
+}
+
+.btn {
+    box-shadow: none !important;
+    outline: 0 !important;
+    border: 0 !important;
+}
+
+.btn:hover {
+    background-color: #ff5757;
+    color: white;
+    box-shadow: none;
+}
+
+.btn:active,
+.btn:focus {
+    box-shadow: none !important;
+    outline: 0 !important;
+    border: 0 !important;
+    background-color: #ff5757 !important;
+    color: white !important;
 }
 
 hr {
@@ -25,9 +58,9 @@ hr {
 }
 
 .cardimg2 {
-    margin-top: 15%;
-    height: 250px;
-    width: 250px;
+    margin-top: 50%;
+    height: 300px;
+    width: 300px;
 }
 
 @media (max-width: 992px) {
@@ -45,6 +78,16 @@ hr {
         height: 200px;
         width: 200px;
     }
+    #registration {
+        font-size: 250%;
+        line-height: 130%;
+        font-family: 'regular', sans-serif;
+        text-align: center;
+    }
+    #quizimg {
+        height: 180px;
+        width: 180px;
+    }
 }
 
 @media (max-width: 576px) {
@@ -56,5 +99,15 @@ hr {
         margin-top: 13%;
         height: 180px;
         width: 180px;
+    }
+    #registration {
+        font-size: 200%;
+        line-height: 130%;
+        font-family: 'regular', sans-serif;
+        text-align: center;
+    }
+    #quizimg {
+        height: 150px;
+        width: 150px;
     }
 }

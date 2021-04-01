@@ -22,6 +22,9 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatDialogModule } from '@angular/material/dialog';
 import { MatBadgeModule } from '@angular/material/badge';
 import { MatInputModule } from '@angular/material/input';
+import { RegisterComponent } from './register/register.component';
+import { ResultComponent } from './result/result.component';
+import { FormsModule } from '@angular/forms'
 @NgModule({
   declarations: [
     AppComponent,
@@ -35,7 +38,9 @@ import { MatInputModule } from '@angular/material/input';
     FooterComponent,
     GlobeTrackComponent,
     InfocardsComponent,
-    SignupComponent
+    SignupComponent,
+    RegisterComponent,
+    ResultComponent
   ],
   imports: [
     BrowserModule,
@@ -47,7 +52,8 @@ import { MatInputModule } from '@angular/material/input';
     MatFormFieldModule,
     MatDialogModule,
     MatBadgeModule,
-    MatInputModule
+    MatInputModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

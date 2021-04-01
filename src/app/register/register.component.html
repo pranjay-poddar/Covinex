@@ -1,1 +1,39 @@
-<p>register works!</p>
+<div class="container padding text-white ">
+
+    <div class="jumbotron d-flex justify-content-center bg-dark">
+        <div class="row d-flex justify-content-center">
+            <div class="col-lg-9">
+                <div class="row ">
+                    <div class="col-lg-6 ">
+                        <h1 id="registration">ASSESSMENT REGISTRATION</h1>
+                    </div>
+                    <div class="col-lg-6 d-flex justify-content-center">
+                        <img src="assets/images/quiz.png" id="quizimg" class="grow">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-9 ">
+
+                <form #registerForm="ngForm">
+                    <div class="form-group">
+                        <i class="fa fa-user" style="font-size:25px; color:#ff5757;margin-right:10px;" aria-hidden="true"></i>
+                        <label for="exampleInputPassword1"> Name</label>
+                        <input type="text" name="Name" #Name ngModel class="form-control" [pattern]="namepattern" id="name" placeholder="Enter Name" required>
+                    </div>
+                    <div class="form-group">
+                        <i class="fa fa-envelope" style="font-size:25px; color:#ff5757;margin-right:10px;" aria-hidden="true"></i>
+                        <label for="exampleInputEmail1">Email address</label>
+                        <input type="email" name="Email" #Email ngModel class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Email" [pattern]="emailPattern" required>
+
+                    </div>
+                    <small id="emailHelp" class="form-text text-muted">We'll never share your details with anyone else.</small>
+                    <br>
+                    <div class="text-center">
+                        <button type="submit" class="btn btn-primary bg-danger grow" id="start" [disabled]="!registerForm.valid">START</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

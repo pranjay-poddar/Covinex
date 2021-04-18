@@ -1,3 +1,4 @@
+import { ResourcesComponent } from './resources/resources.component';
 import { AssessmentComponent } from './assessment/assessment.component';
 import { RegisterComponent } from './register/register.component';
 import { ResultComponent } from './result/result.component';
@@ -12,9 +13,6 @@ import { HomeComponent } from './home/home.component';
 import { NgModule } from '@angular/core';
 import { Routes,RouterModule } from '@angular/router';
 
-
-
-
 const routes: Routes = [
   {path: '', redirectTo: '/home', pathMatch: 'full'},
   {path: 'home', component: HomeComponent},
@@ -27,6 +25,7 @@ const routes: Routes = [
   {path: 'globetracker', component: GlobeTrackComponent},
   {path: 'footer', component: FooterComponent},
   {path: 'result', component: ResultComponent},
+  {path: 'resources', component: ResourcesComponent},
   {path: 'register', component: RegisterComponent}
 ];
 

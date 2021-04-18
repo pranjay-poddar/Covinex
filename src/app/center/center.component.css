@@ -17,7 +17,7 @@
 }
 
 .home {
-    height: 100vh;
+    height: 200vh;
     background-color: black;
 }
 
@@ -51,12 +51,13 @@ hr {
 }
 
 .bg1 {
-    margin-top: 5%;
+    margin-top: 8%;
+    background-color: black;
 }
 
 .bg2 {
     background-color: black;
-    height: 110vh;
+    height: 100vh;
 }
 
 .flip-card {
@@ -99,29 +100,17 @@ hr {
     .heading-1 {
         font-size: 350%;
     }
+    .cardimg {
+        height: 300px;
+        width: 300px;
+        border-radius: 25px;
+    }
+    .bg1 {
+        margin-top: 10%;
+    }
 }
 
 @media (max-width: 768px) {
-    .heading-1 {
-        font-size: 300%;
-    }
-    .cardimg {
-        height: 250px;
-        width: 250px;
-        border-radius: 25px;
-    }
-    .cardimg2 {
-        height: 250px;
-        width: 250px;
-        border-radius: 25px;
-    }
-    #map {
-        height: 100vh;
-        width: 100vw;
-    }
-}
-
-@media (max-width: 576px) {
     .col,
     .col-1,
     .col-10,
@@ -197,6 +186,32 @@ hr {
         min-height: 1px;
         padding-right: 0;
         padding-left: 0;
+    }
+    .bg1 {
+        margin-top: 18%;
+    }
+    .heading-1 {
+        font-size: 300%;
+    }
+    .cardimg {
+        height: 250px;
+        width: 250px;
+        border-radius: 25px;
+    }
+    .cardimg2 {
+        height: 250px;
+        width: 250px;
+        border-radius: 25px;
+    }
+    #map {
+        height: 100vh;
+        width: 100vw;
+    }
+}
+
+@media (max-width: 576px) {
+    .bg1 {
+        margin-top: 2%;
     }
     .heading-1 {
         font-size: 300%;

@@ -25,7 +25,8 @@ import { MatInputModule } from '@angular/material/input';
 import { RegisterComponent } from './register/register.component';
 import { ResultComponent } from './result/result.component';
 import { FormsModule } from '@angular/forms';
-import { AssessmentComponent } from './assessment/assessment.component'
+import { AssessmentComponent } from './assessment/assessment.component';
+import { ResourcesComponent } from './resources/resources.component'
 @NgModule({
   declarations: [
     AppComponent,
@@ -42,7 +43,8 @@ import { AssessmentComponent } from './assessment/assessment.component'
     SignupComponent,
     RegisterComponent,
     ResultComponent,
-    AssessmentComponent
+    AssessmentComponent,
+    ResourcesComponent
   ],
   imports: [
     BrowserModule,

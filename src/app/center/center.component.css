@@ -7,6 +7,11 @@
 }
 
 #map {
+    height: 70vh;
+    width: 100%;
+}
+
+#map1 {
     height: 100vh;
     width: 1300px;
 }
@@ -51,6 +56,7 @@ hr {
 
 .bg2 {
     background-color: black;
+    height: 110vh;
 }
 
 .flip-card {

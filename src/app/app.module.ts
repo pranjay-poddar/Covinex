@@ -24,7 +24,8 @@ import { MatBadgeModule } from '@angular/material/badge';
 import { MatInputModule } from '@angular/material/input';
 import { RegisterComponent } from './register/register.component';
 import { ResultComponent } from './result/result.component';
-import { FormsModule } from '@angular/forms'
+import { FormsModule } from '@angular/forms';
+import { AssessmentComponent } from './assessment/assessment.component'
 @NgModule({
   declarations: [
     AppComponent,
@@ -40,7 +41,8 @@ import { FormsModule } from '@angular/forms'
     InfocardsComponent,
     SignupComponent,
     RegisterComponent,
-    ResultComponent
+    ResultComponent,
+    AssessmentComponent
   ],
   imports: [
     BrowserModule,

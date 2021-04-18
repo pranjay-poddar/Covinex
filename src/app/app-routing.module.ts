@@ -1,3 +1,4 @@
+import { AssessmentComponent } from './assessment/assessment.component';
 import { RegisterComponent } from './register/register.component';
 import { ResultComponent } from './result/result.component';
 import { GlobeTrackComponent } from './globe-track/globe-track.component';
@@ -13,9 +14,11 @@ import { Routes,RouterModule } from '@angular/router';
 
 
 
+
 const routes: Routes = [
   {path: '', redirectTo: '/home', pathMatch: 'full'},
   {path: 'home', component: HomeComponent},
+  {path: 'assessment', component: AssessmentComponent},
   {path: 'center', component: CenterComponent},
   {path: 'analysis', component: AnalysisComponent},
   {path: 'tracker', component: TrackerComponent},

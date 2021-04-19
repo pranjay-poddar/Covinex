@@ -39,28 +39,55 @@ h1 {
     position: absolute;
     left: 50%;
     margin-left: -160px;
-    top: 58vh;
+    top: 55vh;
 }
 
-.btn {
+.resource {
+    position: absolute;
+    left: 50%;
+    margin-left: -120px;
+    top: 65vh;
+}
+
+.btn_resource {
+    background-color: #ff5757;
+    color: white;
+    border-radius: 40px;
+    font-family: 'bold', 'regular';
+    border: 0.1px;
+    font-size: 160%;
+    box-shadow: 0;
+    height: 50px;
+    width: 250px;
+}
+
+.btn_resource:hover {
+    background-color: white;
+    border: #ff5757 solid 1px;
+    color: #ff5757;
+}
+
+.btn_sign {
     background-color: white;
     color: #ff5757;
+    border: #ff5757 solid 1px;
     border-radius: 50px;
     font-family: 'bold', 'regular';
     font-size: 160%;
     box-shadow: 0;
-    height: 60px;
+    height: 50px;
     width: 150px;
 }
 
-.btn:hover {
+.btn_sign:hover {
     background-color: #ff5757;
     color: white;
+    border: white solid 1px;
     box-shadow: none;
 }
 
-.btn:active,
-.btn:focus {
+.btn_sign:active,
+.btn_sign:focus {
     box-shadow: none !important;
     outline: 0 !important;
     border: 0 !important;
@@ -87,12 +114,20 @@ h1 {
         background-position: -50vw;
     }
     .rectangle {
-        margin-top: 45vh;
         height: 55px;
         width: 730px;
         font-size: 160%;
         left: 50%;
         margin-left: -360px;
+    }
+    .resource {
+        position: absolute;
+        left: 50%;
+        margin-left: -120px;
+        top: 66vh;
+    }
+    .btn_resource {
+        width: 250px;
     }
 }
 
@@ -101,7 +136,7 @@ h1 {
         background-position: -80vw;
     }
     .rectangle {
-        margin-top: 40vh;
+        margin-top: 30vh;
         height: 13vh;
         width: 500px;
         font-size: 160%;
@@ -110,21 +145,26 @@ h1 {
         line-height: 35px;
     }
     h1 {
-        margin-top: 25vh;
+        margin-top: 20vh;
         left: 50%;
         margin-left: -120px;
         font-size: 400%;
     }
-    .btn {
+    .btn_sign {
         font-size: 140%;
         box-shadow: 0;
-        height: 65px;
         width: 130px;
     }
     .sign-button {
         left: 50%;
         margin-left: -150px;
-        top: 58vh;
+        top: 50vh;
+    }
+    .resource {
+        position: absolute;
+        left: 50%;
+        margin-left: -125px;
+        top: 62vh;
     }
 }
 
@@ -133,7 +173,7 @@ h1 {
         background-position: -170vw;
     }
     .rectangle {
-        margin-top: 30vh;
+        margin-top: 25vh;
         height: 13vh;
         width: 380px;
         font-size: 150%;
@@ -146,17 +186,23 @@ h1 {
         margin-left: -118px;
         font-size: 400%;
     }
-    .btn {
+    .btn_sign {
         font-size: 140%;
         box-shadow: 0;
-        height: 65px;
+        height: 60px;
         width: 130px;
         margin-top: 5%;
     }
     .sign-button {
         left: 50%;
         margin-left: -150px;
-        top: 50vh;
+        top: 40vh;
+    }
+    .resource {
+        position: absolute;
+        left: 50%;
+        margin-left: -130px;
+        top: 68vh;
     }
 }
 
@@ -165,7 +211,7 @@ h1 {
         background-position: -170vw;
     }
     .rectangle {
-        margin-top: 30vh;
+        margin-top: 25vh;
         height: 17vh;
         width: 300px;
         font-size: 150%;
@@ -178,16 +224,22 @@ h1 {
         margin-left: -117px;
         font-size: 380%;
     }
-    .btn {
+    .btn_sign {
         font-size: 140%;
         box-shadow: 0;
-        height: 65px;
+        height: 60px;
         width: 130px;
         margin-top: 5%;
     }
     .sign-button {
         left: 50%;
         margin-left: -150px;
-        top: 55vh;
+        top: 45vh;
+    }
+    .resource {
+        position: absolute;
+        left: 50%;
+        margin-left: -135px;
+        top: 73vh;
     }
 }

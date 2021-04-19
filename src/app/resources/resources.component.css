@@ -2,6 +2,11 @@
     background-color: black;
 }
 
+#mobile-show1,
+#mobile-show2 {
+    display: none;
+}
+
 .grow {
     transition: all .2s ease-in-out;
 }
@@ -21,11 +26,6 @@ select {
     background-color: #ff5757;
     height: 100px;
     margin: 5%;
-}
-
-.ui.statistic>.value,
-.ui.statistics .statistic>.value {
-    font-size: 40px!important;
 }
 
 .heading-1 {
@@ -96,9 +96,36 @@ a {
 }
 
 @media (max-width: 576px) {
+    #web-show {
+        display: none;
+    }
+    #mobile-show1,
+    #mobile-show2 {
+        display: block;
+    }
     .heading-1 {
         left: 38vw;
         font-size: 300%;
         line-height: 45px;
+    }
+    .card {
+        border-radius: 50px;
+        background-color: #ff5757;
+        height: 100px;
+        margin: 5%;
+    }
+    .card p {
+        margin-top: 5px;
+        color: black;
+        text-decoration: none;
+        line-height: 5px;
+    }
+    .ui.statistic>.label,
+    .ui.statistics .statistic>.label {
+        font-family: 'Fredoka One', 'Helvetica Neue', Helvetica, sans-serif;
+        font-size: 18px;
+        margin-top: 7%;
+        font-weight: 200;
+        line-height: 25px;
     }
 }

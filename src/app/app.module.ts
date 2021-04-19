@@ -27,6 +27,7 @@ import { ResultComponent } from './result/result.component';
 import { FormsModule } from '@angular/forms';
 import { AssessmentComponent } from './assessment/assessment.component';
 import { ResourcesComponent } from './resources/resources.component'
+import 'hammerjs';
 @NgModule({
   declarations: [
     AppComponent,

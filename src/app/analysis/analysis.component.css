@@ -18,11 +18,6 @@
     text-align: center;
 }
 
-#quizimg {
-    height: 200px;
-    width: 200px;
-}
-
 .btn {
     box-shadow: none !important;
     outline: 0 !important;
@@ -65,9 +60,9 @@ hr {
 }
 
 .cardimg2 {
-    margin-top: 50%;
-    height: 300px;
-    width: 300px;
+    margin-top: 20%;
+    height: 250px;
+    width: 250px;
 }
 
 @media (max-width: 992px) {

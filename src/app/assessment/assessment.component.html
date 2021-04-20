@@ -62,7 +62,11 @@
                     <!-- <div class="p-1 m-2 alert {{ isCorrect(question) == 'correct'? 'alert-success': 'alert-danger'}}">Your answer is {{isCorrect(question)}}.</div> -->
                 </div>
             </div>
-            <h4 class="alert alert-info text-center">You may close this window now.</h4>
+            <h4 class="alert alert-info text-center">Click locate Center if you need to take a Covid-19 test
+                <button class="btn btn-locate-center grow btn-back btn-primary" routerLink="/center">Locate Center</button>
+            </h4>
+
+
         </div>
         <hr />
         <div *ngIf="mode!='result'">

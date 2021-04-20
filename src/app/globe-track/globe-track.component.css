@@ -6,6 +6,11 @@
     transform: scale(1.1);
 }
 
+.btn-country {
+    background-color: #ff5757;
+    border-radius: 25px;
+}
+
 .ui.statistic>.value,
 .ui.statistics .statistic>.value {
     font-size: 40px!important;

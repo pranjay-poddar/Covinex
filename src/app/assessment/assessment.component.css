@@ -48,6 +48,11 @@ body {
     margin-top: 3%;
 }
 
+.btn-locate-center {
+    border-radius: 25px;
+    background-color: #ff5757;
+}
+
 .option {
     background-color: #ff5757;
     font-size: 20px;

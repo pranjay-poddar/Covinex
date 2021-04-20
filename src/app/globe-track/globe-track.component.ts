@@ -21,7 +21,7 @@ export class GlobeTrackComponent implements OnInit {
   chart = {
     PieChart: ChartType.PieChart,
     LineChart : ChartType.LineChart,
-    height: 600,
+    height: 500,
     options: {
       animation:{
         duration: 1000,

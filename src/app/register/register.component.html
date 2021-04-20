@@ -5,7 +5,7 @@
             <div class="col-lg-9">
                 <div class="row ">
                     <div class="col-lg-6 ">
-                        <h1 id="registration">ANALYSIS REGISTRATION</h1>
+                        <h1 id="registration">COVID ANALYSIS REGISTRATION</h1>
                     </div>
                     <div class="col-lg-6 d-flex justify-content-center">
                         <img src="assets/images/quiz.png" id="quizimg" class="grow">
@@ -23,8 +23,8 @@
                     </div>
                     <div class="form-group">
                         <i class="fa fa-envelope" style="font-size:25px; color:#ff5757;margin-right:10px;" aria-hidden="true"></i>
-                        <label for="exampleInputEmail1">Email address</label>
-                        <input type="email" name="Email" #Email ngModel class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Email" [pattern]="emailPattern" required>
+                        <label for="exampleInputEmail1">Age</label>
+                        <input ngModel name="Age" type="number" maxlength="3" matInput class="form-control" id="exampleInputEmail1" placeholder="Enter Age" required>
 
                     </div>
                     <small id="emailHelp" class="form-text text-muted">We'll never share your details with anyone else.</small>

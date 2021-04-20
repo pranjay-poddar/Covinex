@@ -2,12 +2,14 @@ import { QuizService } from './../services/quiz.service';
 import { HelperService } from './../services/helper.service';
 import { Component, OnInit } from '@angular/core';
 import { Option, Question, Quiz, QuizConfig } from '../models/index';
+let positive = 0;
 @Component({
   selector: 'app-assessment',
   templateUrl: './assessment.component.html',
   styleUrls: ['./assessment.component.css'],
   providers: [QuizService]
 })
+
 export class AssessmentComponent implements OnInit {
   quizes !: any[];
   quiz: Quiz = new Quiz(null);
@@ -102,17 +104,31 @@ export class AssessmentComponent implements OnInit {
   isAnswered(question: Question) {
     return question.options.find(x => x.selected) ? 'Answered' : 'Not Answered';
   };
-
+  
   isCorrect(question: Question) {
+    if(question.options.every(x => x.selected === x.isAnswer)){
+      positive = positive + 1;
+}
     return question.options.every(x => x.selected === x.isAnswer) ? 'correct' : 'wrong';
   };
 
   onSubmit() {
     let answers = [];
+   
     this.quiz.questions.forEach(x => answers.push({ 'quizId': this.quiz.id, 'questionId': x.id, 'answered': x.answered }));
-
+    
     // Post your data to the server here. answers contains the questionId and the users' answer.
     
     this.mode = 'result';
+  }
+  
+  onPositive(){
+    console.log(positive)
+    if(positive >= 6){
+      return 1;
+    }
+    else{
+      return 2;
+    }
   }
 }

@@ -92,7 +92,7 @@
                     "id": 1056,
                     "questionId": 1010,
                     "name": "Mild",
-                    "isAnswer": false
+                    "isAnswer": true
                 },
                 {
                     "id": 1058,
@@ -127,7 +127,7 @@
                     "id": 1056,
                     "questionId": 1010,
                     "name": "Mild",
-                    "isAnswer": false
+                    "isAnswer": true
                 },
                 {
                     "id": 1058,
@@ -150,7 +150,7 @@
                     "id": 1055,
                     "questionId": 1010,
                     "name": "Yes",
-                    "isAnswer": false
+                    "isAnswer": true
                 },
                 {
                     "id": 1057,
@@ -267,7 +267,7 @@
                     "id": 1057,
                     "questionId": 1010,
                     "name": "Mild",
-                    "isAnswer": false
+                    "isAnswer": true
                 },
                 {
                     "id": 1058,

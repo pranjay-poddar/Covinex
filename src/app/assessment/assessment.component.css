@@ -48,6 +48,16 @@ body {
     margin-top: 3%;
 }
 
+#positive-heading-1 {
+    color: red;
+    font-weight: bold;
+}
+
+#positive-heading-3 {
+    color: green;
+    font-weight: bold;
+}
+
 .btn-locate-center {
     border-radius: 25px;
     background-color: #ff5757;

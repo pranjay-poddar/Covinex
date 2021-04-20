@@ -51,6 +51,13 @@
         </div>
         <div class="result" *ngIf="mode=='result'">
             <h2>Analysis Responses</h2>
+            <div *ngIf="onPositive() == 1">
+                <h1 id="positive-heading-1">YOU NEED TO TAKE A COVID-19 TEST, CONTACT YOUR NEARBY COVID TESTING CENTER TO GET TESTED FOR COVID-19!</h1>
+                <button class="btn btn-locate-center grow btn-back btn-primary" routerLink="/center">Locate Center</button>
+            </div>
+            <div *ngIf="onPositive() == 2">
+                <h1 id="positive-heading-3">COVID-19 TEST IS NOT REQUIRED! YOU DO NOT HAVE COVID SYMPTOMS</h1>
+            </div>
             <div *ngFor="let question of quiz.questions; let index = index">
                 <div class="result-question">
                     <h5>{{index + 1}}. {{question.name}}</h5>
@@ -59,7 +66,7 @@
                             <input id="{{Option.id}}" type="checkbox" disabled="disabled" [(ngModel)]="Option.selected" /> {{Option.name}}
                         </div>
                     </div>
-                    <!-- <div class="p-1 m-2 alert {{ isCorrect(question) == 'correct'? 'alert-success': 'alert-danger'}}">Your answer is {{isCorrect(question)}}.</div> -->
+                    <div class="p-1 m-3 alert {{ isCorrect(question) == 'correct'? '':''}}"></div>
                 </div>
             </div>
             <h4 class="alert alert-info text-center">Click locate Center if you need to take a Covid-19 test

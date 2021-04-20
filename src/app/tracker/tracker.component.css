@@ -17,6 +17,11 @@ select {
     background-color: #ff5757;
 }
 
+.btn-resources {
+    background-color: #ff5757;
+    border-radius: 25px;
+}
+
 .table th {
     font-family: 'regular';
     color: rgb(0, 0, 0);

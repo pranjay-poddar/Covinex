@@ -6,6 +6,11 @@
     transform: scale(1.5);
 }
 
+.btn-global-tracker {
+    border-radius: 25px;
+    background-color: #ff5757;
+}
+
 #map {
     height: 70vh;
     width: 100%;
@@ -46,12 +51,8 @@ hr {
     border-radius: 25px;
 }
 
-.container1 {
-    margin-top: 5%;
-}
-
 .bg1 {
-    margin-top: 8%;
+    margin-top: 5%;
     background-color: black;
 }
 

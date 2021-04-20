@@ -29,7 +29,7 @@ select {
 }
 
 tr:nth-child(even) {
-    background-color: rgb(233, 233, 233);
+    background-color: rgb(165, 165, 165);
 }
 
 tr:hover {

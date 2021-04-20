@@ -25,6 +25,7 @@ body {
 body {
     margin: 0;
     font-family: regular, Roboto, "Helvetica Neue", sans-serif;
+    background-color: #e9ecef;
 }
 
 input.ng-invalid.ng-dirty {

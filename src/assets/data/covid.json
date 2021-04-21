@@ -80,7 +80,7 @@
                     "id": 1055,
                     "questionId": 1010,
                     "name": "Yes",
-                    "isAnswer": true
+                    "isAnswer": false
                 },
                 {
                     "id": 1057,

@@ -107,7 +107,7 @@ export class AssessmentComponent implements OnInit {
   
   isCorrect(question: Question) {
     if(question.options.every(x => x.selected === x.isAnswer)){
-      positive = positive + 1;
+     return positive = positive + 1;
 }
     return question.options.every(x => x.selected === x.isAnswer) ? 'correct' : 'wrong';
   };
@@ -124,11 +124,12 @@ export class AssessmentComponent implements OnInit {
   
   onPositive(){
     console.log(positive)
+    
     if(positive >= 6){
       return 1;
     }
     else{
-      return 2;
+      return 0;
     }
   }
 }

@@ -58,6 +58,10 @@ body {
     font-weight: bold;
 }
 
+.badge {
+    font-size: 115%;
+}
+
 .btn-locate-center {
     border-radius: 25px;
     background-color: #ff5757;

@@ -21,6 +21,7 @@
                 <h2 class="font-weight-normal">{{pager.index + 1}}.
                     <span [innerHTML]="question.name"></span>
                 </h2>
+
                 <div class="row text-left options">
                     <div class="col-6" *ngFor="let option of question.options">
                         <div class="option">
@@ -29,6 +30,9 @@
               </label>
                         </div>
                     </div>
+                </div>
+                <div *ngIf="pager.index == 8">
+                    <h1 style="text-align: center; font-weight: bold;">Please Click Submit</h1>
                 </div>
             </div>
             <hr />
@@ -51,11 +55,11 @@
         </div>
         <div class="result" *ngIf="mode=='result'">
             <h2>Analysis Responses</h2>
-            <div *ngIf="onPositive() == 1">
+            <div *ngIf="onPositive()== 1">
                 <h1 id="positive-heading-1">YOU NEED TO TAKE A COVID-19 TEST, CONTACT YOUR NEARBY COVID TESTING CENTER TO GET TESTED FOR COVID-19!</h1>
                 <button class="btn btn-locate-center grow btn-back btn-primary" routerLink="/center">Locate Center</button>
             </div>
-            <div *ngIf="onPositive() == 2">
+            <div *ngIf="onPositive()== 0">
                 <h1 id="positive-heading-3">COVID-19 TEST IS NOT REQUIRED! YOU DO NOT HAVE COVID SYMPTOMS</h1>
             </div>
             <div *ngFor="let question of quiz.questions; let index = index">
@@ -66,9 +70,12 @@
                             <input id="{{Option.id}}" type="checkbox" disabled="disabled" [(ngModel)]="Option.selected" /> {{Option.name}}
                         </div>
                     </div>
+
+
                     <div class="p-1 m-3 alert {{ isCorrect(question) == 'correct'? '':''}}"></div>
                 </div>
             </div>
+            <p class="text-muted" style="text-align: center;">All the generated analysis results are tentative and do not carry any guarantee</p>
             <h4 class="alert alert-info text-center">Click locate Center if you need to take a Covid-19 test
                 <button class="btn btn-locate-center grow btn-back btn-primary" routerLink="/center">Locate Center</button>
             </h4>

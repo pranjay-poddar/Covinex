@@ -123,7 +123,7 @@ export class AssessmentComponent implements OnInit {
   }
   
   onPositive(){
-    console.log(positive)
+    
     
     if(positive >= 6){
       return 1;

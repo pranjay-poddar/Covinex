@@ -17,12 +17,12 @@ A Covid-19 web-app, which enables users to access some outstanding features like
   </p >
   <br>
   <p align="center">
-  <img src="./src/assets/images/web-view.png" width="600" title="web-view">
+  <img src="./src/assets/images/web-view.png" width="350" title="web-view">
   </p>
   <br>
   <h4 align="center">Completely Responsive For Std Sized Screens:</h4>
   <p align="center">
-  <img src="./src/assets/images/mobile-view.png" width="600" title="mobile-view">
+  <img src="./src/assets/images/mobile-view.png" width="350" title="mobile-view">
   </p>
   <br>
   

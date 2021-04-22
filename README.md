@@ -1,3 +1,45 @@
+# Covinex
+
+
+https://covinex.netlify.app
+
+Discription:A Covid-19 web-app, which enables users to access some outstanding features like self-analysis for covid testing, Covid case tracker at global and country level, locating testing centers, and most importantly I have collated Pan-India resources like available hospital beds, contact information of oxygen cylinder distributors, plasma doners and medical assistance which are regularly updated.
+
+https://covinex.netlify.app
+<br>
+
+  ![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)
+  ![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)
+  ![forthebadge](https://forthebadge.com/images/badges/uses-brains.svg)
+  ![forthebadge](https://forthebadge.com/images/badges/check-it-out.svg)
+<p align="center">
+  
+  <img src="./src/assets/logo.png" width="150" title="hover text">
+  </p >
+  <br>
+  <p align="center">
+  <img src="./images/CATALYTIC ORIGINALS COVER PAGE.png" width="600" alt="accessibility text">
+  </p>
+  <br>
+  <h4 align="center">Light Mode:</h4>
+  <p align="center">
+  <img src="./images/light.PNG" width="600" title="hover text">
+  </p>
+  <br>
+  <h4 align="center">Dark Mode:</h4>
+  <p align="center">
+  <img src="./images/dark.PNG" width="600" title="hover text">
+  </p>
+  <br>
+  <h4 align="center">Responsive For Std Sized Screens:</h4>
+  <p align="center">
+  <img src="https://github.com/pranjay-poddar/catalytic_originals/blob/master/images/responsive.png" width="600" title="hover text">
+  </p>
+  <br>
+  
+
+
+
 # Covid
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.1.
@@ -25,3 +67,6 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+<h4 align="center">
+   © Pranjay Poddar 2021
+  </h4>

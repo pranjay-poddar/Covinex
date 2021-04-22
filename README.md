@@ -17,22 +17,12 @@ A Covid-19 web-app, which enables users to access some outstanding features like
   </p >
   <br>
   <p align="center">
-  <img src="./images/CATALYTIC ORIGINALS COVER PAGE.png" width="600" alt="accessibility text">
+  <img src="./src/assets/images/web-view.png" width="600" title="web-view">
   </p>
   <br>
-  <h4 align="center">Light Mode:</h4>
+  <h4 align="center">Completely Responsive For Std Sized Screens:</h4>
   <p align="center">
-  <img src="./images/light.PNG" width="600" title="hover text">
-  </p>
-  <br>
-  <h4 align="center">Dark Mode:</h4>
-  <p align="center">
-  <img src="./images/dark.PNG" width="600" title="hover text">
-  </p>
-  <br>
-  <h4 align="center">Responsive For Std Sized Screens:</h4>
-  <p align="center">
-  <img src="https://github.com/pranjay-poddar/catalytic_originals/blob/master/images/responsive.png" width="600" title="hover text">
+  <img src="./src/assets/images/mobile-view.png" width="600" title="mobile-view">
   </p>
   <br>
   

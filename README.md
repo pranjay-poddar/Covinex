@@ -3,9 +3,8 @@
 
 https://covinex.netlify.app
 
-Discription:A Covid-19 web-app, which enables users to access some outstanding features like self-analysis for covid testing, Covid case tracker at global and country level, locating testing centers, and most importantly I have collated Pan-India resources like available hospital beds, contact information of oxygen cylinder distributors, plasma doners and medical assistance which are regularly updated.
+A Covid-19 web-app, which enables users to access some outstanding features like self-analysis for covid testing, Covid case tracker at global and country level, locating testing centers, and most importantly I have collated Pan-India resources like available hospital beds, contact information of oxygen cylinder distributors, plasma doners and medical assistance which are regularly updated.
 
-https://covinex.netlify.app
 <br>
 
   ![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)
@@ -14,7 +13,7 @@ https://covinex.netlify.app
   ![forthebadge](https://forthebadge.com/images/badges/check-it-out.svg)
 <p align="center">
   
-  <img src="./src/assets/logo.png" width="150" title="hover text">
+  <img src="./src/assets/images/logo.png" width="150" title="hover text">
   </p >
   <br>
   <p align="center">

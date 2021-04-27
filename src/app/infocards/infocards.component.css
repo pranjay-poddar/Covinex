@@ -5,7 +5,7 @@
 
 .heading-1 {
     left: 38vw;
-    font-family: 'Fredoka One', cursive;
+    font-family: bold;
     color: rgb(0, 0, 0);
     font-size: 400%;
     text-align: center;
@@ -14,7 +14,7 @@
 
 .ui.statistic>.label,
 .ui.statistics .statistic>.label {
-    font-family: 'Fredoka One', 'Helvetica Neue', Helvetica, sans-serif;
+    font-family: bold, 'Helvetica Neue', Helvetica, sans-serif;
     font-size: 25px;
     font-weight: 300;
     color: rgba(0, 0, 0, .87);

@@ -27,7 +27,7 @@ select {
 }
 
 .card {
-    border-radius: 50px;
+    border-radius: 10px;
     background-color: #ff5757;
     height: 100px;
     margin: 5%;
@@ -35,7 +35,7 @@ select {
 
 .heading-1 {
     left: 38vw;
-    font-family: 'Fredoka One';
+    font-family: bold;
     color: rgb(0, 0, 0);
     font-size: 400%;
     text-align: center;
@@ -44,7 +44,7 @@ select {
 
 .ui.statistic>.label,
 .ui.statistics .statistic>.label {
-    font-family: 'Fredoka One', 'Helvetica Neue', Helvetica, sans-serif;
+    font-family: bold, 'Helvetica Neue', Helvetica, sans-serif;
     font-size: 30px;
     margin-top: 5%;
     font-weight: 300;
@@ -114,7 +114,7 @@ a {
         line-height: 45px;
     }
     .card {
-        border-radius: 50px;
+        border-radius: 10px;
         background-color: #ff5757;
         height: 100px;
         margin: 5%;
@@ -127,7 +127,7 @@ a {
     }
     .ui.statistic>.label,
     .ui.statistics .statistic>.label {
-        font-family: 'Fredoka One', 'Helvetica Neue', Helvetica, sans-serif;
+        font-family: bold, 'Helvetica Neue', Helvetica, sans-serif;
         font-size: 18px;
         margin-top: 7%;
         font-weight: 200;

@@ -13,7 +13,7 @@ select {
 }
 
 .card {
-    border-radius: 50px;
+    border-radius: 10px;
     background-color: #ff5757;
 }
 
@@ -54,12 +54,12 @@ tr:hover {
 
 .ui.statistic>.value,
 .ui.statistics .statistic>.value {
-    font-size: 40px!important;
+    font-size: 30px!important;
 }
 
 .heading-1 {
     left: 38vw;
-    font-family: 'Fredoka One';
+    font-family: bold;
     color: rgb(0, 0, 0);
     font-size: 400%;
     text-align: center;
@@ -68,7 +68,7 @@ tr:hover {
 
 .ui.statistic>.label,
 .ui.statistics .statistic>.label {
-    font-family: 'Fredoka One', 'Helvetica Neue', Helvetica, sans-serif;
+    font-family: bold, 'Helvetica Neue', Helvetica, sans-serif;
     font-size: 25px;
     font-weight: 300;
     color: rgba(0, 0, 0, .87);

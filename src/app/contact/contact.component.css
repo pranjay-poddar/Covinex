@@ -14,7 +14,7 @@
 .heading-1 {
     margin-top: 5%;
     left: 38vw;
-    font-family: 'Fredoka One', cursive;
+    font-family: bold;
     color: white;
     font-size: 400%;
     text-align: center;
@@ -24,7 +24,7 @@
 .heading-2 {
     margin-top: 4vh;
     left: 38vw;
-    font-family: 'Fredoka One', cursive;
+    font-family: bold;
     color: #ff5757;
     font-size: 200%;
     text-align: center;

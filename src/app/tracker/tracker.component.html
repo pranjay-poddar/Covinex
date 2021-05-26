@@ -60,28 +60,30 @@
 </div>
 
 <!-- table ------------- -->
-<div class="container-fluid ">
-    <div class="row d-flex justify-content-center">
+<div class="table-container">
+    <div class="container-fluid ">
+        <div class="row d-flex justify-content-center">
 
-        <div class="col-sm-5  col-md-5 col-lg-12">
+            <div class="col-sm-5  col-md-5 col-lg-12">
 
-            <table class="table">
-                <thead>
-                    <tr>
-                        <th>Sno.</th>
-                        <th>Date</th>
-                        <th>Cases</th>
-                    </tr>
-                </thead>
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>Sno.</th>
+                            <th>Date</th>
+                            <th>Cases</th>
+                        </tr>
+                    </thead>
 
-                <tbody>
-                    <tr *ngFor='let cs of selectedCountryData; index as i '>
-                        <td>{{i+1}}</td>
-                        <td>{{cs.date | date}}</td>
-                        <td>{{cs.cases}}</td>
-                    </tr>
-                </tbody>
-            </table>
+                    <tbody>
+                        <tr *ngFor='let cs of selectedCountryData; index as i '>
+                            <td>{{i+1}}</td>
+                            <td>{{cs.date | date}}</td>
+                            <td>{{cs.cases}}</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
         </div>
     </div>
 </div>

@@ -22,6 +22,12 @@ select {
     border-radius: 25px;
 }
 
+.table-container {
+    height: 475px;
+    overflow: scroll;
+    margin-bottom: 100px;
+}
+
 .table th {
     font-family: 'regular';
     color: rgb(0, 0, 0);

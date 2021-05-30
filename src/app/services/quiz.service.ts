@@ -14,8 +14,8 @@ export class QuizService {
     return [
       { id: 'assets/data/covid.json', name: 'Covid' },
       // { id: 'assets/data/mental.json', name: 'Mental' },
-      // { id: 'assets/data/csharp.json', name: 'C Sharp' },
-      // { id: 'assets/data/designPatterns.json', name: 'Design Patterns' }
+      // { id: 'assets/data/pre_covid.json', name: 'Pre Covid' },
+      // { id: 'assets/data/post_Covid.json', name: 'Post Covid' }
     ];
   }
 }

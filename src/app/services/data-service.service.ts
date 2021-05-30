@@ -13,7 +13,7 @@ export class DataServiceService {
   private dateWiseDataUrl = 'https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_global.csv';
   private extension = '.csv';
   month;
-  date;
+  date:any;
   year;
   
   getDate(date : number){
@@ -26,11 +26,21 @@ export class DataServiceService {
     let now = new Date()
     this.month = now.getMonth() + 1;
     this.year = now.getFullYear();
-    this.date = now.getDate()-3;
-    if (this.date == 1 || 2 || 3){
+    this.date = now.getDate()-2;
+    if (this.date === 1){
       this.month = now.getMonth();
-      this.date = 30 - now.getDate();
+      this.date = 30 - this.date;
     }
+    else if (this.date === 2){
+      this.month = now.getMonth();
+      this.date = 30 - this.date;
+    }
+    
+    else if (this.date === 3){
+      this.month = now.getMonth();
+      this.date = 30 - this.date;
+    }
+    console.log(this.date,this.month,this.year);
     this.globalDataUrl = `${this.globalDataUrl}${this.getDate(this.month)}-${this.getDate(this.date)}-${this.year}${this.extension}`
    }
 

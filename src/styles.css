@@ -2,12 +2,12 @@
 
 @font-face {
     font-family: regular;
-    src: url(./assets/fonts/Aileron-Regular.otf) format("opentype");
+    src: url(./assets/fonts/SF-Pro-Text-Medium.otf) format("opentype");
 }
 
 @font-face {
     font-family: bold;
-    src: url(./assets/fonts/Aileron-Bold.otf) format("opentype");
+    src: url(./assets/fonts/SF-Pro-Text-Bold.otf) format("opentype");
 }
 
 * {

@@ -4,24 +4,18 @@ Hosted Link To Website- https://covinex.netlify.app
 A Covid-19 web-app, which enables users to access some outstanding features like self-analysis for covid testing, Covid case tracker at global and country level, locating testing centers, and most importantly I have collated Pan-India resources like available hospital beds, contact information of oxygen cylinder distributors, plasma doners and medical assistance which are regularly updated.
 <br>
 
-![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)
-
-![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)
-
-![forthebadge](https://forthebadge.com/images/badges/uses-brains.svg)
-
-![forthebadge](https://forthebadge.com/images/badges/check-it-out.svg)
+![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg) ![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg) ![forthebadge](https://forthebadge.com/images/badges/uses-brains.svg) ![forthebadge](https://forthebadge.com/images/badges/check-it-out.svg)
 <p align="center">
 <img src="./src/assets/images/logo.png" width="150" title="hover text">
 </p >
 <br>
 <p align="center">
-<img src="./src/assets/images/web-view.png" width="350" title="web-view">
+<img src="./src/assets/images/web-view1.png" width="350" title="web-view">
 </p>
 <br>
 <h4 align="center">Completely Responsive For Std Sized Screens:</h4>
 <p align="center">
-<img src="./src/assets/images/mobile-view.png" width="350" title="mobile-view">
+<img src="./src/assets/images/mobile-view1.png" width="350" title="mobile-view">
 </p>
 <br>
 

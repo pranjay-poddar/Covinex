@@ -9,14 +9,14 @@ A Covid-19 web-app, which enables users to access some outstanding features like
 <img src="./src/assets/images/logo.png" width="150" title="hover text">
 </p >
 <br>
-<p align="center">
-<img src="./src/assets/images/web-view1.png" width="350" title="web-view">
-</p>
+
+<img src="./src/assets/images/web-view1.png" title="web-view">
+
 <br>
 <h4 align="center">Completely Responsive For Std Sized Screens:</h4>
-<p align="center">
-<img src="./src/assets/images/mobile-view1.png" width="350" title="mobile-view">
-</p>
+
+<img src="./src/assets/images/mobile-view1.png" title="mobile-view">
+
 <br>
 
 ## List Of Features

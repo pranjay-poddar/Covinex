@@ -63,12 +63,12 @@ export class GlobeTrackComponent implements OnInit {
 
 
 
-updateChart(input: HTMLInputElement) {
-  console.log(input.value);
-  this.initChart(input.value)
-}
+  updateChart(input: HTMLInputElement): void {
+    console.log(input.value);
+    this.initChart(input.value)
+  }
 
-initChart(caseType: string) {
+initChart(caseType: string): void {
  this.datatable = [];
   // this.datatable.push(["Country", "Cases"])
   

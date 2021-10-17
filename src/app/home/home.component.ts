@@ -13,9 +13,9 @@ export class HomeComponent implements OnInit {
 
   ngOnInit(): void {
   }
-    //openDialog--
-    openDialog(){
-      this.dialog.open(SignupComponent);
-    }
+  //openDialog--
+  openDialog(): void {
+    this.dialog.open(SignupComponent);
+  }
 
 }

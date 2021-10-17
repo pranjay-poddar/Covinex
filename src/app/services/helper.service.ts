@@ -5,7 +5,7 @@ import { Injectable } from '@angular/core';
 })
 
 export class HelperService {
-  static toBool(val: any) {
+  static toBool(val: any): boolean {
     if (val === undefined || val === null || val === '' || val === 'false' || val === 'False') {
       return false;
     } else {

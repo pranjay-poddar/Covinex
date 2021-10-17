@@ -42,7 +42,7 @@ export class AssessmentComponent implements OnInit {
   duration = '';
   constructor(private quizService: QuizService) { }
 
-  ngOnInit() {
+  ngOnInit(): void {
     this.quizes = this.quizService.getAll();
     this.quizName = this.quizes[0].id;
     this.loadQuiz(this.quizName);
@@ -50,7 +50,7 @@ export class AssessmentComponent implements OnInit {
     
     }
   }
-  loadQuiz(quizName: string) {
+  loadQuiz(quizName: string): void {
     this.quizService.get(quizName).subscribe(res => {
       this.quiz = new Quiz(res);
       this.pager.count = this.quiz.questions.length;
@@ -62,7 +62,7 @@ export class AssessmentComponent implements OnInit {
     this.mode = 'quiz';
   }
 
-  tick() {
+  tick(): void {
     const now = new Date();
     const diff = (now.getTime() - this.startTime.getTime()) / 1000;
     if (diff >= this.config.duration) {
@@ -71,7 +71,7 @@ export class AssessmentComponent implements OnInit {
     this.ellapsedTime = this.parseTime(diff);
   }
 
-  parseTime(totalSeconds: number) {
+  parseTime(totalSeconds: number): string {
     let mins: string | number = Math.floor(totalSeconds / 60);
     let secs: string | number = Math.round(totalSeconds % 60);
     mins = (mins < 10 ? '0' : '') + mins;
@@ -84,7 +84,7 @@ export class AssessmentComponent implements OnInit {
       this.quiz.questions.slice(this.pager.index, this.pager.index + this.pager.size) : [];
   }
 
-  onSelect(question: Question, option: Option) {
+  onSelect(question: Question, option: Option): void {
     if (question.questionTypeId === 1) {
       question.options.forEach((x) => { if (x.id !== option.id) x.selected = false; });
     }
@@ -94,16 +94,16 @@ export class AssessmentComponent implements OnInit {
     }
   }
 
-  goTo(index: number) {
+  goTo(index: number): void {
     if (index >= 0 && index < this.pager.count) {
       this.pager.index = index;
       this.mode = 'quiz';
     }
   }
 
-  isAnswered(question: Question) {
+  isAnswered(question: Question): string {
     return question.options.find(x => x.selected) ? 'Answered' : 'Not Answered';
-  };
+  }
   
   isCorrect(question: Question) {
     if(question.options.every(x => x.selected === x.isAnswer)){
@@ -112,7 +112,7 @@ export class AssessmentComponent implements OnInit {
     return question.options.every(x => x.selected === x.isAnswer) ? 'correct' : 'wrong';
   };
 
-  onSubmit() {
+  onSubmit(): void {
     let answers = [];
    
     this.quiz.questions.forEach(x => answers.push({ 'quizId': this.quiz.id, 'questionId': x.id, 'answered': x.answered }));
@@ -122,14 +122,7 @@ export class AssessmentComponent implements OnInit {
     this.mode = 'result';
   }
   
-  onPositive(){
-    
-    
-    if(positive >= 6){
-      return 1;
-    }
-    else{
-      return 0;
-    }
+  onPositive(): number {
+    return (positive >= 6) ? 1 : 0;
   }
 }

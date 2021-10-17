@@ -16,6 +16,7 @@ export class GlobeTrackComponent implements OnInit {
   totalDeaths = 0;
   totalRecovered = 0;
   loading = true;
+  con = 'India';
   globalData: GlobalDataSummary[]=[];
   datatable:any=[];
   chart = {

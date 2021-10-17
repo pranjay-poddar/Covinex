@@ -5,7 +5,7 @@
     <h1 class="heading-1">Global Corona Tracker</h1>
     <hr>
     <div class="row d-flex justify-content-center">
-        <div class="card grow card1 col-sm-12 col-md-6 col-lg-3 p-2 m-3">
+        <div class="card grow card1 col-sm-12 col-md-6 col-lg-3 p-2 m-3" *ngIf="totalConfirmed!=0">
             <div class="ui statistic">
                 <div class="label">
                     Confirmed
@@ -15,7 +15,7 @@
                 </div>
             </div>
         </div>
-        <div class="card grow card1 col-sm-12 col-md-5 col-lg-3 p-2 m-3">
+        <div class="card grow card1 col-sm-12 col-md-5 col-lg-3 p-2 m-3" *ngIf="totalRecovered!=0">
             <div class="ui statistic">
                 <div class="label">
                     Recovered
@@ -25,7 +25,7 @@
                 </div>
             </div>
         </div>
-        <div class="card grow card1 col-sm-12 col-md-6 col-lg-3 p-2 m-3">
+        <div class="card grow card1 col-sm-12 col-md-6 col-lg-3 p-2 m-3" *ngIf="totalDeaths!=0">
             <div class="ui statistic">
                 <div class="label">
                     Deceased
@@ -35,7 +35,7 @@
                 </div>
             </div>
         </div>
-        <div class="card grow card1 col-sm-12 col-md-5 col-lg-3 p-2 m-3">
+        <div class="card grow card1 col-sm-12 col-md-5 col-lg-3 p-2 m-3" *ngIf="totalActive!=0">
             <div class="ui statistic">
                 <div class="label">
                     Active

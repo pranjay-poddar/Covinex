@@ -66,7 +66,7 @@ export class TrackerComponent implements OnInit {
   updateValues(country: string): void {
     console.log(country);
     this.data.forEach(cs => {
-      if (cs.country == country) {
+      if (cs.country === country) {
         this.totalActive = cs.active
         this.totalDeaths = cs.deaths
         this.totalRecovered = cs.recovered

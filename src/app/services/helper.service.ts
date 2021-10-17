@@ -5,7 +5,7 @@ import { Injectable } from '@angular/core';
 })
 
 export class HelperService {
-  static toBool(val:any) {
+  static toBool(val: any) {
     if (val === undefined || val === null || val === '' || val === 'false' || val === 'False') {
       return false;
     } else {
@@ -13,7 +13,7 @@ export class HelperService {
     }
   }
 
-  static shuffle(array:any) {
+  static shuffle(array: any) {
     let currentIndex = array.length, temp, randomIndex;
 
     while (0 !== currentIndex) {
@@ -26,7 +26,7 @@ export class HelperService {
     }
     return array;
   }
-  static extend(out:any) {
+  static extend(out: any) {
     out = out || {};
 
     for (let i = 1; i < arguments.length; i++) {
@@ -35,7 +35,7 @@ export class HelperService {
       }
 
       for (const key in arguments[i]) {
-        if (arguments[i].hasOwnProperty(key)) {
+        if (arguments[i].prototype.hasOwnProperty(key)) {
           out[key] = arguments[i][key];
         }
       }

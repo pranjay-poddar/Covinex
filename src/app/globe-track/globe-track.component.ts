@@ -41,7 +41,7 @@ export class GlobeTrackComponent implements OnInit {
     .subscribe(
       {
         next: (result) => {
-          console.log(result);
+          //console.log(result);
           this.globalData = result;
           result.forEach(cs => {
             if (!Number.isNaN(cs.confirmed)) {
@@ -65,7 +65,7 @@ export class GlobeTrackComponent implements OnInit {
 
 
   updateChart(input: HTMLInputElement): void {
-    console.log(input.value);
+    //console.log(input.value);
     this.initChart(input.value)
   }
 
@@ -96,7 +96,7 @@ initChart(caseType: string): void {
       
       this.datatable.push([cs.country,value])
   })
-  console.log(this.datatable);
+  //console.log(this.datatable);
 
 }
 

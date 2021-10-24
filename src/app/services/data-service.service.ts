@@ -40,7 +40,6 @@ export class DataServiceService {
       this.month = now.getMonth();
       this.date = 30 - this.date;
     }
-    console.log(this.date,this.month,this.year);
     this.globalDataUrl = `${this.globalDataUrl}${this.getDate(this.month)}-${this.getDate(this.date)}-${this.year}${this.extension}`
    }
 
@@ -49,7 +48,6 @@ export class DataServiceService {
     return this.http.get(this.dateWiseDataUrl, { responseType: 'text' })
       .pipe(map(result => {
         let rows = result.split('\n');
-        // console.log(rows);
         let mainData = Array();
         let header = rows[0];
         let dates = header.split(/,(?=\S)/)
@@ -59,7 +57,6 @@ export class DataServiceService {
           let cols = row.split(/,(?=\S)/)
           let con:any = cols[1];
           cols.splice(0 , 4);
-          // console.log(con , cols);
           mainData[con] = [];
           cols.forEach((value , index)=>{
             let dw : DateWiseData = {
@@ -74,7 +71,6 @@ export class DataServiceService {
         })
 
 
-        // console.log(mainData);
         return mainData;
       }))
   }
@@ -87,7 +83,6 @@ export class DataServiceService {
         let raw: StringKey = {};
         let rows = result.split('\n');
         rows.splice(0, 1);
-        // console.log(rows);
         rows.forEach(row => {
           let cols = row.split(/,(?=\S)/)
 

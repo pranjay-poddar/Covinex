@@ -64,7 +64,7 @@ export class TrackerComponent implements OnInit {
   }
 
   updateValues(country: string): void {
-    console.log(country);
+    //console.log(country);
     this.data.forEach(cs => {
       if (cs.country === country) {
         this.totalActive = cs.active
@@ -74,7 +74,7 @@ export class TrackerComponent implements OnInit {
       }
     });
     this.selectedCountryData = this.dateWiseData[country]
-    // console.log(this.selectedCountryData);
+//     console.log(this.selectedCountryData);
     this.updateChart();
   }
 }

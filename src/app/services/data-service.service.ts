@@ -40,7 +40,7 @@ export class DataServiceService {
       this.month = now.getMonth();
       this.date = 30 - this.date;
     }
-    console.log(this.date,this.month,this.year);
+    //console.log(this.date,this.month,this.year);
     this.globalDataUrl = `${this.globalDataUrl}${this.getDate(this.month)}-${this.getDate(this.date)}-${this.year}${this.extension}`
    }
 
